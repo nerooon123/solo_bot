@@ -1,1 +1,2 @@
-BOT_TOKEN = "123"
+BOT_TOKEN = "ВАШ_ТОКЕН"
+ADMIN_IDS = [ВАШ_ID]

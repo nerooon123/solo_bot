@@ -5,6 +5,8 @@ def get_profile_keyboard() -> InlineKeyboardMarkup:
     builder = InlineKeyboardBuilder()
     builder.button(text="📜 Навыки", callback_data="skills")
     builder.button(text="🧠 Характеристики", callback_data="stats")
+    builder.button(text="🗺️ Квесты", callback_data="quests")
+    builder.button(text="🎒 Инвентарь", callback_data="inventory")
     return builder.as_markup()
 
 def get_back_keyboard() -> InlineKeyboardMarkup:
